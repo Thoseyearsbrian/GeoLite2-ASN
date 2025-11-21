@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-下载并解压 MaxMind 官方 GeoIP2-ASN.mmdb 数据库
+# 下载并解压 MaxMind 官方 GeoLite2-ASN.mmdb 数据库
 
 - 自动读取 MAXMIND_LICENSE_KEY 环境变量
 - 支持本地使用 .env 文件（用于本地开发）
-- 从 MaxMind 官方地址下载 GeoIP2-ASN 压缩包
+- 从 MaxMind 官方地址下载 GeoLite2-ASN 压缩包
 - 解压出 .mmdb 文件至 ./release 目录
 """
 
@@ -32,10 +32,10 @@ url = (
     f"?edition_id=GeoLite2-ASN&license_key={license_key}&suffix=tar.gz"
 )
 
-tar_path = "GeoIP2-ASN.tar.gz"
+tar_path = "GeoLite2-ASN.tar.gz"
 output_dir = "release"
 
-print("开始从 MaxMind 下载 GeoIP2-ASN 数据库...")
+print("开始从 MaxMind 下载 GeoLite2-ASN 数据库...")
 print(f"下载地址: {url}")
 
 try:
@@ -58,7 +58,7 @@ try:
         for member in tar.getmembers():
             if member.name.endswith(".mmdb"):
                 member.name = os.path.basename(member.name)
-                tar.extract(member, output_dir)
+                tar.extract(member, output_dir, numeric_owner=False)
 
     print(f".mmdb 文件已解压至 {output_dir}/")
 except Exception as e:
