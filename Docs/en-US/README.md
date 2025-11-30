@@ -22,7 +22,7 @@
 
 ## **Overview**
 
-This project provides scripts and configuration templates to automatically download and build the official GeoLite2-ASN.mmdb database from MaxMind. With a valid MaxMind License Key, users can generate a global IP-to-ASN (Autonomous System Number) attribution dataset. The project is designed to support tools such as Surge, Clash, Shadowrocket, and Quantumult X by offering a trustworthy, transparent, and automatically updated ASN-based network attribution database. It helps users identify the network ownership behind traffic flows (e.g., cloud providers, telecom operators, or infrastructure entities), enabling more precise traffic routing, security policy control, and infrastructure categorization.
+This project provides scripts and configuration templates to automatically download and build the official GeoLite2-ASN.mmdb database from MaxMind. With a valid MaxMind License Key, users can generate a global IP-to-ASN (Autonomous System Number) attribution dataset. The project is designed to support tools such as Surge, Clash, Shadowrocket, and Quantumult X by offering a trustworthy, link-transparent, and automatically updated ASN-based network attribution database. It helps users identify the network ownership behind traffic flows (e.g., cloud providers, telecom operators, or infrastructure entities), enabling more precise traffic routing, security policy control, and infrastructure categorization.
 
 ## **Project Background**
 

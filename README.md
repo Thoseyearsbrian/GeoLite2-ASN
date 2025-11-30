@@ -22,7 +22,7 @@
 
 ## 项目概述
 
-本项目提供自动下载并构建 MaxMind 官方 GeoLite2-ASN.mmdb 数据库的脚本与配置方案，使用户能够基于自身的 MaxMind License Key 自动生成覆盖全球 IP → ASN（自治系统编号）归属信息的数据文件。项目旨在为 Surge、Clash、Shadowrocket、Quantumult X 等网络工具提供来源可信、结构透明、自动更新的 ASN 网络归属识别支持，帮助用户识别流量所归属的网络运营商、云服务商或组织机构，实现更精细的网络行为分流、安全策略控制与基础设施归属判断。
+本项目提供自动下载并构建 MaxMind 官方 GeoLite2-ASN.mmdb 数据库的脚本与配置方案，使用户能够基于自身的 MaxMind License Key 自动生成覆盖全球 IP → ASN（自治系统编号）归属信息的数据文件。项目旨在为 Surge、Clash、Shadowrocket、Quantumult X 等网络工具提供来源可信、链路透明、自动更新的 ASN 网络归属识别支持，帮助用户识别流量所归属的网络运营商、云服务商或组织机构，实现更精细的网络行为分流、安全策略控制与基础设施归属判断。
 
 ## 项目背景
 
