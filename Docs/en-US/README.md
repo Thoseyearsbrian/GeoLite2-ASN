@@ -118,8 +118,8 @@ This project is **intended for developers with a technical background and awaren
 
 ## 🙌 Community Support
 
-If you find this project valuable, feel free to Star ⭐️ it. All rule updates are announced through our [Telegram](https://telegram.org) channels — you're welcome to subscribe and stay informed:
+If you find value in this project, please consider giving it a ⭐️ Star. All relevant updates will be announced via our [Telegram](https://telegram.org) notification channels — feel free to subscribe and stay informed.
 
-**Telegram Release Channel** - <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a> : Publishes the latest rule versions, changelogs, and important announcements  
+**Telegram Update Channel** – <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a>: Publishes the latest rule versions, changelogs, and important announcements.
 
-**Telegram Community Group** - <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a> : Share suggestions, report false positives, and participate in collaborative rule development
+**Telegram Community Group** – <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a>: Open for suggestions, feedback, and collaborative contributions from the community.
