@@ -115,7 +115,3 @@ This project is **intended for developers with a technical background and awaren
 - This project uses GitHub Actions to automatically pull data from MaxMind. **You must register on MaxMind and obtain your own License Key** to run the build script or automation legally.
 - GeoLite2 data is copyrighted by [MaxMind, Inc.](https://www.maxmind.com/) and is licensed under the [GeoLite2 EULA](https://www.maxmind.com/en/geolite2/eula).
 - All scripts and configuration files in this project are licensed under the [Apache License 2.0](https://raw.githubusercontent.com/Thoseyearsbrian/GeoLite2-ASN/main/LICENSE).
-
-## 🙌 Community Support
-
-If you find value in this project, please consider giving it a ⭐️ Star.
